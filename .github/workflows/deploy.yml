@@ -1,0 +1,41 @@
+name: Deploy static content to Pages
+
+on:
+  # Chạy pipeline mỗi khi có code mới đẩy lên nhánh main
+  push:
+    branches: ["main"]
+  # Cho phép bạn chạy pipeline thủ công từ tab Actions
+  workflow_dispatch:
+
+# Cấp quyền cho GITHUB_TOKEN để deploy lên Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  # Job Deploy
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.' # Deploy toàn bộ thư mục gốc
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
