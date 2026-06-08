@@ -7,15 +7,15 @@ export function Footer() {
         <div className="max-w-md">
           <div className="flex items-center gap-3">
             <div className="flex h-10 w-10 items-center justify-center rounded-full bg-white text-sm font-semibold text-slate-950">
-              WH
+              RD
             </div>
             <div>
               <p className="text-xs uppercase tracking-[0.22em] text-white/45">Legal Entity</p>
-              <p className="text-lg font-semibold">Windstream Holdings II, LLC</p>
+              <p className="text-lg font-semibold">REN DESIGN JOINT STOCK COMPANY</p>
             </div>
           </div>
           <p className="mt-4 text-sm leading-7 text-white/55">
-            4001 N Rodney Parham Rd, Little Rock - 72212-2459, United States (US).
+            Adjacent 6A-27 Nguyen Van Loc, Mo Lao Ward, Ha Noi, Viet Nam (VN).
           </p>
         </div>
 
@@ -41,7 +41,7 @@ export function Footer() {
               <Youtube size={18} />
             </a>
           </div>
-          <p className="text-sm text-white/40">© 2026 Windstream Holdings II, LLC. All rights reserved.</p>
+          <p className="text-sm text-white/40">© 2026 REN DESIGN JOINT STOCK COMPANY. All rights reserved.</p>
         </div>
       </div>
     </footer>

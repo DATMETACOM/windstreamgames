@@ -13,11 +13,11 @@ export function Contact() {
                 Company information
               </h2>
               <p className="mt-5 text-lg leading-8 text-slate-600">
-                Updated with the legal entity name and registered address you provided.
+                Official developer, ownership, and organization details for publishing and privacy contact.
               </p>
               <div className="mt-8 flex flex-col gap-4 sm:flex-row">
                 <Button className="h-auto rounded-full bg-[#111827] px-6 py-3 text-white hover:bg-[#1f2937]">
-                  Windstream Holdings II, LLC
+                  REN DESIGN JOINT STOCK COMPANY
                 </Button>
               </div>
             </div>
@@ -29,7 +29,18 @@ export function Contact() {
                 </div>
                 <h3 className="mt-5 text-lg font-semibold text-slate-950">Legal name</h3>
                 <p className="mt-2 text-sm leading-6 text-slate-600">
-                  Windstream Holdings II, LLC
+                  REN DESIGN CONSTRUCTION INVESTMENT AND ARCHITECTURE JOINT STOCK COMPANY
+                </p>
+              </div>
+              <div className="rounded-[1.75rem] bg-white/80 p-6 shadow-sm">
+                <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-slate-950 text-white">
+                  <Building2 size={20} />
+                </div>
+                <h3 className="mt-5 text-lg font-semibold text-slate-950">Account owner</h3>
+                <p className="mt-2 text-sm leading-6 text-slate-600">
+                  toxuantung1305@gmail.com
+                  <br />
+                  (Tung To)
                 </p>
               </div>
               <div className="rounded-[1.75rem] bg-white/80 p-6 shadow-sm sm:col-span-2">
@@ -38,11 +49,22 @@ export function Contact() {
                 </div>
                 <h3 className="mt-5 text-lg font-semibold text-slate-950">Registered address</h3>
                 <p className="mt-2 text-sm leading-6 text-slate-600">
-                  4001 N Rodney Parham Rd
+                  Adjacent 6A-27 Nguyen Van Loc
                   <br />
-                  Little Rock - 72212-2459
+                  Mo Lao Ward
                   <br />
-                  United States (US)
+                  Ha Noi - Viet Nam (VN)
+                </p>
+              </div>
+              <div className="rounded-[1.75rem] bg-white/80 p-6 shadow-sm sm:col-span-2">
+                <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-slate-950 text-white">
+                  <Building2 size={20} />
+                </div>
+                <h3 className="mt-5 text-lg font-semibold text-slate-950">Website</h3>
+                <p className="mt-2 text-sm leading-6 text-slate-600">
+                  <a href="https://acedev.tech/" className="transition-colors hover:text-slate-950">
+                    acedev.tech
+                  </a>
                 </p>
               </div>
             </div>

@@ -3,7 +3,7 @@ const sections = [
     id: "introduction",
     title: "1. Introduction",
     body: [
-      "This Privacy Policy explains how Windstream Holdings II, LLC and Windstream Studio collect, use, store, and disclose information when users interact with our websites, games, support channels, and related services.",
+      "This Privacy Policy explains how REN DESIGN JOINT STOCK COMPANY and its affiliated operating entity, REN DESIGN CONSTRUCTION INVESTMENT AND ARCHITECTURE JOINT STOCK COMPANY, collect, use, store, and disclose information when users interact with our websites, games, support channels, and related services.",
       "By using our services, you acknowledge that your information may be processed as described in this policy, subject to applicable law.",
     ],
   },
@@ -86,7 +86,8 @@ const sections = [
     title: "12. Contact Information",
     body: [
       "If you have questions about this Privacy Policy or would like to submit a privacy-related request, you may contact us at the address below.",
-      "Windstream Holdings II, LLC, 4001 N Rodney Parham Rd, Little Rock - 72212-2459, United States (US).",
+      "REN DESIGN CONSTRUCTION INVESTMENT AND ARCHITECTURE JOINT STOCK COMPANY, Adjacent 6A-27 Nguyen Van Loc, Mo Lao Ward, Ha Noi, Viet Nam (VN).",
+      "Website: https://acedev.tech/ | Account owner contact: toxuantung1305@gmail.com (Tung To).",
     ],
   },
 ];
@@ -106,16 +107,16 @@ export function PrivacyPage() {
           <div className="mt-8 rounded-[2.5rem] border border-black/8 bg-white/80 p-8 shadow-[0_24px_80px_rgba(15,23,42,0.08)] md:p-12">
             <p className="text-xs uppercase tracking-[0.3em] text-slate-500">Privacy Policy</p>
             <h1 className="mt-4 max-w-3xl text-4xl font-semibold tracking-[-0.05em] text-slate-950 md:text-6xl">
-              Windstream Holdings II, LLC Privacy Policy
+              REN DESIGN JOINT STOCK COMPANY Privacy Policy
             </h1>
             <p className="mt-5 max-w-2xl text-lg leading-8 text-slate-600">
               This page describes how information may be collected, used, disclosed, and
-              protected in connection with Windstream Studio websites, games, and related
+              protected in connection with ACEDev websites, games, and related
               services.
             </p>
             <div className="mt-8 flex flex-col gap-3 border-t border-black/8 pt-6 text-sm text-slate-600 md:flex-row md:items-center md:justify-between">
               <div>Last updated: March 21, 2026</div>
-              <div>4001 N Rodney Parham Rd, Little Rock - 72212-2459, United States (US)</div>
+              <div>Adjacent 6A-27 Nguyen Van Loc, Mo Lao Ward, Ha Noi, Viet Nam (VN)</div>
             </div>
           </div>
 

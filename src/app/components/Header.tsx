@@ -19,13 +19,13 @@ export function Header() {
         <div className="flex h-16 items-center justify-between rounded-full border border-black/8 bg-[#fcfbf7]/90 px-5 shadow-[0_8px_30px_rgba(15,23,42,0.06)] backdrop-blur">
           <a href="#home" className="flex items-center gap-3">
             <div className="flex h-10 w-10 items-center justify-center rounded-full bg-[#111827] text-sm font-semibold text-white">
-              W
+              R
             </div>
             <div>
               <div className="text-[0.7rem] uppercase tracking-[0.24em] text-slate-500">
-                Windstream Studio
+                REN DESIGN
               </div>
-              <span className="text-base font-semibold text-slate-950">PuzzleCraft</span>
+              <span className="text-base font-semibold text-slate-950">ACEDev</span>
             </div>
           </a>
 
