@@ -11,6 +11,7 @@ export function Header() {
     { label: "About", href: "#about" },
     { label: "Contact", href: "#contact" },
     { label: "Privacy", href: "/privacy.html" },
+    { label: "Terms", href: "/terms.html" },
   ];
 
   return (
