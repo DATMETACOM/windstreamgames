@@ -27,6 +27,7 @@ export function Footer() {
             <a href="#contact" className="transition-colors hover:text-white">Contact</a>
             <a href="/privacy.html" className="transition-colors hover:text-white">Privacy</a>
             <a href="/terms.html" className="transition-colors hover:text-white">Terms</a>
+            <a href="/account-deletion.html" className="transition-colors hover:text-white">Delete Account</a>
           </nav>
           <div className="flex gap-3">
             <a href="#" className="flex h-10 w-10 items-center justify-center rounded-full border border-white/10 bg-white/5 transition-colors hover:bg-white hover:text-slate-950">

@@ -96,6 +96,7 @@ const sections = [
     body: [
       "Depending on your location, you may have rights to request access, correction, deletion, restriction, portability, objection, or withdrawal of consent. In some jurisdictions, you may also have rights to complain to a regulator or request information about categories of data, categories of recipients, or specific disclosure practices.",
       "We may need to verify your identity before responding to certain requests, and some requests may be limited where exceptions under applicable law apply.",
+      "If an app or service includes account creation, you may request deletion of your app account and associated data through our account deletion page at https://acedev.tech/account-deletion.html.",
     ],
   },
   {
